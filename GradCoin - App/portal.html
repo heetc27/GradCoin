@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gradcoin Transfer Portal</title>
+	<link rel="stylesheet" type="text/css" href="css/professor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src= "./index.js"></script> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet"/>
+
+    <script type = "module" src="./app.js"></script>
+</head>
+
+<body>
+    <div class="row greyish-background">
+        <div class = "col-5"></div>
+        <div class="col-2"><a href = "index.html"><img class = "logo" src= "images/logo.png"></a></div>
+        <div class = "col-1 account">Account no:</div>
+        <div class = "col-2 account" id="account"></div>
+        </div>
+	<div class = "row heading" style="margin-top: 5%;">
+        <div class = "col-5"></div>
+        <div class="col-3"><h2>Gradcoin Transfer</h2></div>
+    </div>
+    <div class = "row">
+    <div class = "col-5"></div>
+	<div class ="col-2">
+        <div class="transfer-container">
+        <!-- <form action = "" id = "contactForm"> -->
+		<label for="address">Ethereum Address:</label>
+		<input type="text" id = "student-address" name = "address" required placeholder = "Student's ETH address">
+
+		<label for="name">Name:</label>
+		<input type="text" id="student-name" name="name" required placeholder = "Enter Student's name">
+
+		<label for="cgpa">CGPA:</label>
+		<input type="number" id="student-cgpa" name="cgpa" min="0" max="4" pattern="[0-9]+([,\.][0-9]+)?" required placeholder = "0-4">
+
+		<button id = "transfer" type= "submit">Transfer</button>
+        <!-- </form> -->
+        </div>
+    </div>
+</div>
+
+	<div class ="row">
+        <div class="col-4"></div>
+        <div class="col-2"><button id = "top" type="submit">Show Top Performer</button></div>
+        <div class="col-4"><input type="text" id="top-performer-field"></div>
+    </div>
+
+    <div class ="row">
+        <div class="col-4"></div>
+        <div class="col-2"><button id = "avg" type="submit">Average CGPA</button></div>
+        <div class="col-4"><input type="text" id="average-cgpa-field" readonly></div>
+    </div>
+
+    <div class ="row">
+        <div class="col-4"></div>
+        <div class="col-2"><button id = "highest" type="submit">Highest CGPA</button></div>
+        <div class="col-4"><input type="text" id="highest-cgpa-field" readonly></div>
+    </div>
+
+    <div class ="row">
+        <div class="col-4"></div>
+        <div class="col-1"><input type="text" id="student-eth-address-field" placeholder = "Enter your ETH address"></div>
+        <div class="col-2" style ="padding: 0%;"><button id = "balance" type="submit" style="margin-left: 35%;">Get Student Balance</button></div>
+        <div class="col-4" style ="padding: 0%;"><input type="text" id="student-balance-field" readonly></div>
+    </div>
+</body>
+</html>
