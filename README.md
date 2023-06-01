@@ -30,10 +30,10 @@ students. This function allows them to view the balance of their accounts
 ![image](https://github.com/heetc27/GradCoin/assets/51861740/b22ee233-e4a2-4080-9011-abcb10a625e5)
 
 USER INTERFACE:
-![image](https://github.com/heetc27/GradCoin/assets/51861740/13087f23-e75c-4851-ad16-aa6361a77581)
+1. ![image](https://github.com/heetc27/GradCoin/assets/51861740/13087f23-e75c-4851-ad16-aa6361a77581)
 
-![image](https://github.com/heetc27/GradCoin/assets/51861740/81985553-0e25-4d92-96fc-d31d9825daf2)
+2. ![image](https://github.com/heetc27/GradCoin/assets/51861740/81985553-0e25-4d92-96fc-d31d9825daf2)
 
-![image](https://github.com/heetc27/GradCoin/assets/51861740/8784de1d-64ac-4fc4-95f5-6cb15b5c4910)
+3. ![image](https://github.com/heetc27/GradCoin/assets/51861740/8784de1d-64ac-4fc4-95f5-6cb15b5c4910)
 
 Deployed at: https://rocky-atoll-14961.herokuapp.com/
